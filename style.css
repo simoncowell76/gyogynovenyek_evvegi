@@ -66,4 +66,48 @@ h2 {
 * {
     box-sizing: border-box
 }
+main {
+    background-image: url(kepek/fohatter.png);
+    background-color: lightgoldenrodyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 900px;
+    
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+nav {
+    text-align: center;
+    grid-column: 1fr 1fr;
+    border: 10px;
+    border-radius: 10vh;
+    background-color: rgb(173, 216, 230);
+    border-bottom: 5vh;
+}
+nav a {
+    font-size: 2ww;
+    border: 10px;
+    border-color: bisque;
+    border-radius: 4vh;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 
+
+}
+nav :hover{
+    color: red;
+}
+p {
+    text-align: justify;
+    font-size: 1.5vw;
+
+}
+img{
+    width:100%
+}
+@media screen and (max-width:600px){
+    main {
+        width: 100%;
+    }
+}
